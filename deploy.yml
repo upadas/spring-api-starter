@@ -1,0 +1,1 @@
+ansible-playbook -i inventory.yml deploy.yml --extra-vars "env=prod version=1.2.3"
